@@ -1,0 +1,21 @@
+body {
+  background: darkslateblue;
+}
+h1 {
+  margin: 0;
+  padding: 10px;
+  background: darkkhaki;
+}
+.index1 {
+  position: relative;
+  background: darkred;
+  top: 30px;
+  z-index: -1;
+}
+/* z-index significa a profundidade (xyz) */
+.index2 {
+  position: absolute;
+  z-index: 0;
+  background: darkcyan;
+  top: 50px;
+}

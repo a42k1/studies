@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.centro {
+  text-align: center;
+}
+.roxo {
+  color: blueviolet;
+}
+.grande {
+  font-style: italic;
+  font-size: 50px;
+}
+.links {
+  font-family: fantasy;
+  text-decoration: none;
+}
+.links:hover {
+  color: green;
+}

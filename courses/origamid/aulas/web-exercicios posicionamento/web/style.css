@@ -1,0 +1,154 @@
+body {
+  margin: 20px;
+  font-family: Arial;
+  color: white;
+  background: #f7f7f7;
+  height: 1000px;
+}
+
+img {
+  max-width: 100%;
+}
+.outro {
+  display: block;
+  background: #d2d2d2;
+  border: #fff;
+  border-radius: 6px;
+  color: #000;
+  padding: 10px 15px;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  font-size: 20px;
+}
+h1 {
+  margin: 0;
+}
+
+.direita {
+  text-align: right;
+}
+.bold {
+  font-weight: bold;
+}
+.header {
+  margin: 0;
+  place-self: center;
+}
+.logo {
+  margin: 50px auto;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  place-self: center;
+}
+.nav a {
+  font-size: 16px;
+  color: black;
+  background: white;
+  padding: 13px 20px;
+  border-radius: 4%;
+}
+.colunaum {
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+  place-self: center;
+  display: grid;
+  max-width: 999px;
+  min-width: 999px;
+  grid-template-columns: 500px 1fr;
+}
+.colunaumi {
+  display: grid;
+  place-content: center;
+  place-items: end;
+  padding: 60px;
+}
+.vermais {
+  place-self: end;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  background: #ee2211;
+}
+
+.colunadois {
+  background-color: white;
+  color: black;
+  margin-top: 0;
+  place-self: center;
+  display: grid;
+  max-width: 999px;
+  min-width: 999px;
+  min-height: 500px;
+  max-height: 500px;
+  grid-template-columns: 500px 500px;
+}
+.colunavantagens {
+  display: grid;
+  background-color: #f7f7f7;
+  font-size: 64px;
+  place-content: center end;
+}
+.vantagens {
+  text-transform: uppercase;
+  padding-right: 20px;
+  color: #c6c6c6;
+  font-size: 64px;
+}
+
+.info {
+  display: grid;
+  gap: 10px;
+  grid-auto-rows: 45px;
+  grid-template-columns: 30px 1fr;
+  place-self: center;
+  align-items: center;
+
+  padding: 20px;
+}
+.info p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  grid-column: 2;
+}
+.dois {
+  grid-row: 3;
+}
+
+/* .info p {
+  margin-top: 5px;
+  place-content: center;
+  text-align: justify;
+}
+.eletrica p {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex: 1;
+  place-self: start;
+}
+.velocidade p {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex: 1;
+  place-self: start;
+}
+.rastreadpr p {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex: 1;
+  place-self: start;
+} */

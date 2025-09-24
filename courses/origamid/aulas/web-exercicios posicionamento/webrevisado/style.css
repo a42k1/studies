@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+.outro {
+  background: #d2d2d2;
+  border-radius: 6px;
+  color: #000;
+  padding: 10px 15px;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+p {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.menu a {
+  background: white;
+  color: #000;
+  border-radius: 4px;
+  padding: 15px 30px;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1000px;
+  /* o certo seria max-width: 1000px; */
+}
+.introducao {
+  background: white;
+  display: grid;
+  padding: 40px;
+  gap: 20px;
+  align-content: center; /*alinhou todos os elementos no centro de seus respectivos blocos*/
+  justify-items: end;
+  /* usei e tive problemas place-items: start end; */
+  text-align: right;
+  position: relative; /*adicionado apos correçao*/
+}
+.introducao h1 p {
+  text-align: right;
+}
+.introducao a {
+  /* margin-top: -20px; Usei pra suprir o erro ao usar place items */
+  /*todo resto fiz correto.*/
+  color: #fff;
+  border-radius: 4px;
+  background: #e21;
+  padding: 15px 30px;
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute; /*adicionado apos correcao*/
+  top: 30px;
+  right: -30px;
+}
+.subtitulo {
+  font-size: 64px;
+  color: #c6c6c6;
+  align-self: center;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 40px;
+}
+.vantagens {
+  background: white;
+  padding: 40px;
+}
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}

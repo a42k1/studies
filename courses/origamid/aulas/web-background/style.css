@@ -1,0 +1,29 @@
+/* background-color
+background-image
+background-position
+ background-size
+    background-repeat
+    background-origin
+    background-clip
+    background-attachment */
+/* It does not matter if one of the property values is missing, as long as the other ones are in this order. */
+body {
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-image: linear-gradient(
+    45deg,
+    lightblue,
+    lightcoral,
+    lightgreen,
+    lightyellow
+  );
+}
+.q {
+  height: 600px;
+  background: url("./img/bicicleta.jpg") center no-repeat;
+  background-size: contain;
+}

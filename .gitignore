@@ -1,0 +1,60 @@
+
+
+# Bloat !!!!! 
+*.mp4
+*.avi
+*.mov
+# *.pdf por enquanto n.
+*.zip
+*.rar
+
+# Mine
+portfolio/
+#WIP
+shared/templates/
+projects/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv/
+
+# Build
+dist/
+build/
+*.egg-info/
+.parcel-cache/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Temps
+*.tmp
+*.temp
+.cache/
+

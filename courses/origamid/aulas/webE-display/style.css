@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  font-weight: normal;
+}
+h1 {
+  text-align: center;
+  margin-top: 60px;
+}
+div {
+  font-family: Arial;
+  border-radius: 4px;
+  background-color: #111;
+  color: white;
+  margin: auto 100px 20px 100px;
+  padding: 15px 30px 40px 30px;
+}
+strong {
+  color: #febe01;
+  font-weight: bold;
+}
+p {
+  color: #b2b2b2;
+}
+p strong {
+  font-weight: normal;
+}
+button {
+  font-weight: 500;
+  background: #febe01;
+  border-color: #111;
+  color: #320;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: inherit;
+}

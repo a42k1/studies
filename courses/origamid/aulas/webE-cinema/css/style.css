@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.filme {
+  font-size: 20px;
+}
+.hoje {
+  color: darkred;
+}
+.amanha {
+  color: darkblue;
+}
+.links {
+  text-decoration: none;
+}
+.green {
+  color: seagreen;
+}

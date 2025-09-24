@@ -1,0 +1,35 @@
+body {
+  background: black;
+  color: #84f;
+  height: 1200px;
+}
+.exemploum {
+  border: 2px solid white;
+  padding: 5px 20px 200px 20px;
+  margin-top: 40px;
+}
+.exemploumm {
+  background: #e7e7e7;
+  border: 2px solid #d7d7d7;
+  padding: 10px;
+  /* Muda posicao ao elemento pai que no caso seria a nossa primeira div */
+  position: relative;
+  top: -10px;
+}
+
+.relative {
+  position: relative;
+  border: 2px solid white;
+  padding: 5px 20px 200px 20px;
+  margin-top: 40px;
+}
+.absolute {
+  /* Muda a posicao em relaçao ao body, mas ao colocar a posicao relative na div que contem ela esse absolute muda em relacao ao elemento pai (sua div) */
+  position: absolute;
+  background: #e7e7e7;
+  border: 2px solid #d7d7d7;
+  padding: 10px;
+  position: absolute;
+  top: -15px;
+  text-decoration: none;
+}
