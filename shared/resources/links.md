@@ -1,30 +1,42 @@
 # General
 
-https://www.w3schools.com/ - <3
-https://overapi.com/
-https://devdocs.io/ - DevDocs combines multiple API documentations in a fast, organized, and searchable interface
-https://devhints.io/
-https://explainshell.com/#
-https://developer.mozilla.org/en-US/
+===========
 
-# HTML
+- <https://www.w3schools.com/>
+- <https://overapi.com/>
+- <https://devdocs.io/>
+- <https://devhints.io/>
+- <https://explainshell.com/#>
+- <https://developer.mozilla.org/en-US/>
 
-https://wave.webaim.org/ - HTML accssblty
+## HTML
 
-# CSS
+---
 
-https://css-tricks.com/
-https://nekocalc.com/px-to-em-converter - XDDDDDDDD
+- <https://wave.webaim.org/>
 
-# BOOTSTRAP
+## CSS
 
-https://hackerthemes.com/bootstrap-cheatsheet/
+---
 
-# Git
+- <https://css-tricks.com/>
+- <https://nekocalc.com/px-to-em-converter> - XDDDDDDDD
 
-https://ohshitgit.com/
-https://sethrobertson.github.io/GitFixUm/fixup.html
+## BOOTSTRAP
 
-# macOS
+---
 
-https://kapeli.com/dash
+- <https://hackerthemes.com/bootstrap-cheatsheet/>
+
+## Git
+
+---
+
+- <https://ohshitgit.com/>
+- <https://sethrobertson.github.io/GitFixUm/fixup.html>
+
+## macOS
+
+---
+
+- <https://kapeli.com/dash>
