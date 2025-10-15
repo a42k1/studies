@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 300px));
+  gap: 2rem;
+}
+h1 {
+  grid-column: 1/-1;
+}
+/* @media (width<=600px) {
+  div {
+    grid-template-columns: 1fr;
+  }
+} */
+
+@media (300px<=width<=400px) {
+  body {
+    background-color: #84f;
+  }
+}
