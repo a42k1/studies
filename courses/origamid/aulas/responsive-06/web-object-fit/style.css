@@ -1,0 +1,24 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 100px auto;
+}
+.cover img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top left; /*corta a imagem bottom to left, right to left */
+}
+
+.texto {
+  align-self: center;
+}
+p {
+  max-width: 60ch;
+  font-size: 1.5em;
+}
