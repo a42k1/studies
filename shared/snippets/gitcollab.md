@@ -1,6 +1,6 @@
 # Git Collaboration Guide
 
-<https://www.w3schools.com/git/>
+<a href="https://www.w3schools.com/git/" target="_blank">W3</a>
 This is an ai answer please check wiki above for a more trusted source.
 
 ## Essential Git Workflow
